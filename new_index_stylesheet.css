@@ -1,0 +1,192 @@
+body, html{
+	margin: 0;
+	font-family: helvetica, arial, sans-seriff;
+	color: white;
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+/*------Cabeçalho------ */
+
+/* Cabeçalho geral */
+#header{
+	width: 100%;
+	height: 75px;
+	border: 1px solid black;
+	position: fixed;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 4;
+}
+
+/* Cabeçalho logo e slogan */
+.header-content{
+	text-align: center left;
+	float: left;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+#slogan{
+	margin-top: 30px;
+}
+
+/* Cabeçalho link log e reg */
+.header-actions{
+	float: right;
+	margin-top: -37px;
+	margin-right: 40px;
+}
+
+/* Cabeçalho links */
+a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+  	padding: 10px;
+  	font-weight: bold;
+  	font-size: 11pt;
+}
+a:hover {
+	color: lightskyblue;
+}
+
+/*------Fim do Cabeçalho------ */
+
+
+/*------ Corpo ------ */
+
+
+/* Conteudo */
+.content{
+	display: inline-block;
+	text-align: center;
+	z-index: 3;
+
+}
+
+/* Primeira Página */
+#first_page{
+	background-image: url(background.jpg);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse
+	color: white;
+	text-align: left;
+	height: 100%;
+	padding-top: 200px;
+	padding-left: 30px;
+}
+
+#myVideo{
+	float: right;
+	width: 70%;
+	margin-right: 70px;
+}
+
+#welcome{
+}
+
+#sobre{
+  border: none;
+  background-image: linear-gradient(lightskyblue, deepskyblue);
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px 80px 20px 80px;
+  font-weight: bold;
+  font-size: 12pt;
+  font-stretch: expanded;
+}
+
+/* Segunda Página */
+
+/* boxes parallax */
+#box1, #box2, #box3{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover; /*preencher a tela*/
+	background-attachment: fixed;
+	z-index: 1;
+	opacity: 0.8;
+}
+
+#box1:hover, #box2:hover, #box3:hover{
+	opacity: 1;
+}
+
+
+/* parallax 1 */
+#box1{
+	background-image: url(img1.jpg);
+}
+
+.saiba_mais{
+	color: black;
+	background-color: skyblue;
+	text-align: center;
+	margin-top: 200px;
+	padding: 10px;
+}
+
+/* Terceira Página */
+
+#box2{
+	background-image: url(img2.jpg);
+}
+
+#saiba_mais2{
+	margin-top: 0;
+}
+
+/* Quarta Página */
+
+#box3{
+	background-image: url(img4.jpg);
+}
+
+#qua_page{
+	margin-top: 15%;
+}
+
+img.img-logo{
+	width: 30%;
+}
+
+/* Config geral de paginas */
+ 
+ .page{
+ 	padding: 0px 20px;
+ 	margin-top: 20%;
+ 	color: white;
+ 	background-color: rgb(0, 0, 0, 0.4);
+ 	box-sizing: border-box;
+}
+
+.icone-scroll{ 
+	bottom: 3em;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(0, 0, 0, 0.7);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.scroll{
+	width: 15px;
+	height: 15px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	display: inline-block; 
+}
+
+.scroll-next{
+	transform: rotate(45deg);
+	margin: 15px 0 0 1px;
+}
+
