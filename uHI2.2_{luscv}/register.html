@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registre-se</title>
+  <link rel="icon" href="img/coloured_logo.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div id="content">
+  <div class="Cadastro" id="header">
+    <img src="img/coloured_logo.png" alt="logo Uhi" height="50px" width="80px" id="logo">
+    <h4>Seja Bem Vindo ao nosso mundo!</h4>
+    <hr>
+  </div>
+  <div class="Cadastro"><h3 class="titulo">Cadastre-se</h3><br></div>
+
+  <form id="form">
+    <div class="Cadastro" id="cadpessoal">
+      <div>
+        <p> Nome Completo:</p>
+        <input type="text" name="Nome Completo" id="name"
+               class="text" placeholder="Digite seu nome completo">
+      </div>
+
+      <div>
+        <p>Data de Nascimento:</p>
+        <input type="date" name="Data de Nascimento" id="data"
+               class="text" placeholder="dd/mm/aaaa">
+      </div>
+
+
+      <div>
+
+        <p>Sexo:</p>
+        <div>
+          <input type="radio" name="sexo" class="radio" value="Masculino">Masculino<br>
+        </div>
+
+        <div>
+          <input type="radio" name="sexo" class="radio" value="Feminino">Feminino<br>
+        </div>
+
+        <div>
+          <input type="radio" name="sexo" class="radio" value="Outro">Outro<br>
+        </div>
+      </div>
+
+      <div>
+        <p>CPF:</p>
+        <input type="text" name="CPF" id="cpf" class="text"
+               placeholder="111.222.333-44">
+      </div>
+    </div>
+
+    <div class="Cadastro" id="virtual">
+      <div>
+        <p>Email:</p>
+        <input type="email" name="Email" id="email" class="text"
+               placeholder="usuario@email.com">
+      </div>
+
+      <div>
+        <p>Senha:</p>
+        <input type="" name="senha" id="senha"
+               class="text" placeholder="Digite sua senha">
+      </div>
+      <div>
+        <p>Confirme sua senha:</p>
+        <input type="password" name="senha"
+               class="text" placeholder="Confirme sua senha">
+      </div>
+    </div>
+
+    <div class="Cadastro" id="formacao">
+      <div>
+        <p>Formação:</p>
+        <select name="select">
+          <option value="Ensino Fundamental">Ensino Fundamental</option>
+          <option value="Ensino Médio">Ensino Médio</option>
+          <option value="Ensino superior" selected>Ensino superior</option>
+        </select>
+      </div>
+      <div>
+        <p>Curso:</p>
+        <select name="select">
+          <option value="">Curso</option>
+          <option value="Agronomia">Agronomia</option>
+          <option value="Agroindústria">Agroindústria</option>
+          <option value="Ciências Agrícolas">Ciências Agrícolas</option>
+          <option value="Ciências Agrárias">Ciências Agrárias</option>
+          <option value="Arquitetura">Arquitetura</option>
+          <option value="Arquitetura e Urbanismo">Arquitetura e Urbanismo</option>
+          <option value="Artes Plásticas">Artes Plásticas</option>
+          <option value="Música">Música</option>
+          <option value="Dança">Dança</option>
+          <option value="Teatro">Teatro</option>
+          <option value="Artes Cênicas">Artes Cênicas</option>
+          <option value="Astronomia">Astronomia</option>
+          <option value="Biologia">Biologia</option>
+          <option value="Biotecnologia">Biotecnologia</option>
+          <option value="Bioquímica">Bioquímica</option>
+          <option value="Ciências Biológicas">Ciências Biológicas</option>
+          <option value="Biomedicina">Biomedicina</option>
+          <option value="Microbiologia">Microbiologia</option>
+          <option value="Direito">Direito</option>
+          <option value="Ciências Jurídicas e Sociais">Ciências Jurídicas e Sociais</option>
+          <option value="Ciências Atuariais">Ciências Atuariais</option>
+          <option value="Design">Design</option>
+          <option value="Design Gráfico">Design Gráfico</option>
+          <option value="Design de Moda">Design de Moda</option>
+          <option value="Estilismo e Moda">Estilismo e Moda</option>
+          <option value="Desenho Industrial">Desenho Industrial</option>
+          <option value="Desenho e Plástica">Desenho e Plástica</option>
+          <option value="Decoração">Decoração</option>
+          <option value="Ecologia">Ecologia</option>
+          <option value="Ciências Ambientais">Ciências Ambientais</option>
+          <option value="Ciências Físicas">Ciências Físicas</option>
+          <option value="Ciências Biomoleculares">Ciências Biomoleculares</option>
+          <option value="Enfermagem ">Enfermagem </option>
+          <option value="Engenharia Ambiental">Engenharia Ambiental</option>
+          <option value="Engenharia Agrícola">Engenharia Agrícola</option>
+          <option value="Engenharia Agronômica">Engenharia Agronômica</option>
+          <option value="Engenharia Cartográfica">Engenharia Cartográfica</option>
+          <option value="Engenharia Civil">Engenharia Civil</option>
+          <option value="Engenharia de agrimensura">Engenharia de agrimensura</option>
+          <option value="Engenharia de alimentos">Engenharia de alimentos</option>
+          <option value="Engenharia de Bioprocesso">Engenharia de Bioprocesso</option>
+          <option value="Engenharia da computação">Engenharia da Computação</option>
+          <option value="Engenharia da informação">Engenharia da Informação</option>
+          <option value="Engenharia de controle e automação">Engenharia de Controle e Automação</option>
+          <option value="Engenharia de materiais">Engenharia de Materiais</option>
+          <option value="Engenharia de minas">Engenharia de Minas</option>
+          <option value="Engenharia de pesca">Engenharia de Pesca</option>
+          <option value="Engenharia de petróleo">Engenharia de Petróleo</option>
+          <option value="Engenharia de Produção">Engenharia de Produção</option>
+          <option value="Engenharia de Produção Civil">Engenharia de Produção Civil</option>
+          <option value="Engenharia de Produção elétrica">Engenharia de Produção elétrica</option>
+          <option value="Engenharia de produção mecânica">Engenharia de Produção Mecânica</option>
+          <option value="Engenharia de telecomunicações">Engenharia de telecomunicações</option>
+          <option value="Engenharia elétrica">Engenharia elétrica</option>
+          <option value="Engenharia Eletrônica">Engenharia Eletrônica</option>
+          <option value="Engenharia Teleinformática">Engenharia Teleinformática</option>
+          <option value="Engenharia Física">Engenharia Física</option>
+          <option value="Engenharia Florestal">Engenharia Florestal</option>
+          <option value="Engenharia Geológica">Engenharia Geológica</option>
+          <option value="Engenharia Hídrica">Engenharia Hídrica</option>
+          <option value="Engenharia industrial de controle e automação">Engenharia Industrial de Controle e Automação</option>
+          <option value="Engenharia industrial">Engenharia Industrial</option>
+          <option value="Engenharia industrial e madeireira">Engenharia Industrial e Madeireira</option>
+          <option value="Engenharia industrial e madeireira">Engenharia Industrial e Mecânica</option>
+          <option value="Engenharia Mecatrônica">Engenharia Mecatrônica</option>
+          <option value="Engenharia Engenharia Mecânica">Engenharia Engenharia Mecânica</option>
+          <option value="Engenharia Metalúrgica">Engenharia Metalúrgica</option>
+          <option value="Engenharia Naval e Oceânica">Engenharia Naval e Oceânica</option>
+          <option value="Engenharia Química">Engenharia Química</option>
+          <option value="Engenharia Sanitária">Engenharia Sanitária</option>
+          <option value="Engenharia Teleinformática">Engenharia Teleinformática</option>
+          <option value="Engenharia Têxtil">Engenharia Têxtil</option>
+          <option value="Estatística"> Estatística</option>
+          <option value="Estilismo e Moda"> Estilismo e Moda</option>
+          <option value="Estudos Literários ">  Estudos Literários </option>
+          <option value="Estética ">Estética</option>
+          <option value="Estética e Cosmética">Estética e Cosmética </option>
+          <option value="Famárcia">Famárcia </option>
+          <option value="Famárcia Bioquímica">Famárcia Bioquímica </option>
+          <option value="Filosofia">Filosofia </option>
+          <option value="Fonoaudiologia">Fonoaudiologia </option>
+          <option value="Física ">Física  </option>
+          <option value="Geografia ">Geografia </option>
+          <option value="Geologia">Geologia </option>
+          <option value="Gestão Ambiental">Gestão Ambiental </option>
+          <option value="Gestão da Informação">Gestão da Informação </option>
+          <option value="Gestão de Agronegócios">Gestão de Agronegócios </option>
+          <option value="Gestão de Agronegócios">Gestão de Agronegócios </option>
+          <option value="Gestão de Cooperativas">Gestão de Cooperativas </option>
+          <option value="História">História </option>
+          <option value="Hotelaria">Hotelaria</option>
+          <option value="Informática Biomédica">Informática Biomédica</option>
+          <option value="Letras">Letras</option>
+          <option value="Matemática">Matemática</option>
+          <option value="Matemática">Matemática</option>
+          <option value="Matemática Computacional">Matemática Computacional</option>
+          <option value="Medicina">Medicina</option>
+          <option value="Metereologia">Metereologia</option>
+          <option value="Microbiologia">Microbiologia</option>
+          <option value="Museologia">Museologia</option>
+          <option value="Música">Música</option>
+          <option value="Obstetrícia">Obstetrícia</option>
+          <option value="Oceanografia">Oceanografia</option>
+          <option value="Oceanologia">Oceanologia</option>
+          <option value="Oceanologia">Oceanologia</option>
+          <option value="Pedagogia">Pedagogia</option>
+          <option value="Pedagogia e Psicopedagogia ">Pedagogia e Psicopedagogia </option>
+          <option value="Pedagogia e Psicopedagogia ">Pedagogia e Psicopedagogia </option>
+          <option value="Psicologia ">Psicologia </option>
+          <option value="Química Industrial ">Química Industrial </option>
+          <option value="Química Tecnológica ">Química Tecnológica</option>
+          <option value="Química Tecnológica ">Química Tecnológica</option>
+          <option value="Relações Internacionais ">Relações Internacionais</option>
+          <option value="Secretariado ">Secretariado</option>
+          <option value="Secretariado Executivo ">Secretariado Executivo</option>
+          <option value="Secretariado Executivo ">Secretariado Executivo</option>
+          <option value="Serviço Social">Serviço Social</option>
+          <option value="Teatro">Teatro</option>
+          <option value="Tecnologia  em Alimentos">Tecnologia  em Alimentos</option>
+          <option value="Tecnologia  em Alimentos">Tecnologia  em Alimentos</option>
+          <option value="Tecnologia em Sistemas de Informação ">Tecnologia em Sistemas de Informação</option>
+          <option value="Tecnologia Mecânica ">Tecnologia Mecânica </option>
+          <option value="Tecnologia Oftálmica ">Tecnologia Oftálmica </option>
+          <option value="Tradução">Tradução</option>
+          <option value="Veterinária ">Veterinária </option>
+          <option value="Zootecnia ">Zootecnia </option>
+
+        </select>
+      </div>
+
+      <div>
+        <input type="submit" value="Cadastrar" class="submit">
+      </div>
+    </div>
+
+  </form>
+</div>
+</body>
+</html>
